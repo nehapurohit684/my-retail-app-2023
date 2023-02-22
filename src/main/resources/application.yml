@@ -1,0 +1,22 @@
+spring:
+  data:
+    mongodb:
+      username: target
+      password: target
+      host: localhost
+      port: 27017
+      database: target_retail
+      authentication-database: admin
+      repository.enabled: true
+  application:
+    name: my-retail-app
+  config:
+    uri: http://localhost:8095
+server:
+  port: 8095
+environment:
+  apikey: 3yUxt7WltYG7MFKPp7uyELi1K40ad2ys
+
+
+
+
